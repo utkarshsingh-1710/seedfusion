@@ -1,0 +1,49 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+.wrapper {
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+}
+.title {
+    justify-content:center ;
+    align-items:center ;
+    width: 100%;
+    height:fit-content;
+    display: flex;
+}
+
+.subtitle {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 60px;
+}
+
+.thirdtitle {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 16px;
+}
+
+.titletext {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.subtitletext {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.thirdtitletext {
+    font-size: 12px;
+    font-family: sans-serif;
+}
