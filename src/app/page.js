@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <h1>Seed Fusion Agri Grow</h1>
-        <h2>Coming</h2>
+        <h2>Coming Soon</h2>
       </main>
       <footer className={styles.footer}></footer>
     </div>
