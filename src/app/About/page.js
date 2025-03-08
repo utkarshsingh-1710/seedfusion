@@ -1,27 +1,39 @@
 "use client";
 
 import React from "react";
-import styles from "./dashboard.module.css";
+import styles from "./about.module.css";
 import Image from "next/image";
-import About from "../About/page";
 
 export default function page() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>
+        <p>About Seed Fusion Agri Grow</p>
+      </div>
+      <div className={styles.borderDiv}>
+        <div className={styles.border}></div>
+      </div>
+      <div className={styles.storyrowwrapper}>
         <Image
-          className={styles.Logoimage}
-          src="/seedfusion.png"
+          className={styles.picImage}
+          src="/ourstory.jpg"
           width={180}
           height={38}
           alt="SeedFusion"
           priority
         />
+        <div className={styles.storycolumnrapper}>
+          <p className={styles.storyTitle}>Our Story</p>
+          <p className={styles.storysubTitle}>
+            At Seed Fusion Agri Grow, we believe the future of farming is smart,
+            sustainable, and accessible to all. Founded by a team passionate
+            about agriculture and technology, we set out to solve the biggest
+            challenges farmers face—unpredictable weather, rising costs, and
+            inefficient farming practices.
+          </p>
+        </div>
       </div>
-      <div className={styles.subtitle}>
-        <h3 className={styles.subtitletext}>Cultivating Dreams Together</h3>
-      </div>
-
+      {/*
       <div className={styles.thirdtitle}>
         <p className={styles.thirdtitletext}>
           Transform the way you farm with our cutting-edge technologies and
@@ -47,8 +59,7 @@ export default function page() {
           alt="SeedFusion"
           priority
         />
-      </div>
-      <About />
+      </div> */}
     </div>
   );
 }
