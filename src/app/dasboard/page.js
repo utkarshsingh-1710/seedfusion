@@ -1,11 +1,21 @@
+"use client";
+
 import React from "react";
 import styles from "./dashboard.module.css";
+import Image from "next/image";
 
 export default function page() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>
-        <h1 className={styles.titletext}>SeedFusion AgriGrow</h1>
+        <Image
+          className={styles.Logoimage}
+          src="/seedfusion.png"
+          width={180}
+          height={38}
+          alt="SeedFusion"
+          priority
+        />
       </div>
       <div className={styles.subtitle}>
         <h3 className={styles.subtitletext}>Cultivating Dreams Together</h3>
@@ -16,6 +26,26 @@ export default function page() {
           Transform the way you farm with our cutting-edge technologies and
           techniques
         </p>
+      </div>
+      <div className={styles.buttonWrapper}>
+        <button
+          onClick={() => window.open(`tel:+919264499684`)}
+          className={styles.buttonStyles}
+        >
+          {" "}
+          GET STARTED TODAY
+        </button>
+      </div>
+
+      <div className={styles.picImageWrapper}>
+        <Image
+          className={styles.picImage}
+          src="/pic1.jpg"
+          width={180}
+          height={38}
+          alt="SeedFusion"
+          priority
+        />
       </div>
     </div>
   );

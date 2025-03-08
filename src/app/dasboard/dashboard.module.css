@@ -3,47 +3,89 @@ You do not need to worry about .error {} colliding with any other `.css` or
 `.module.css` files!
 */
 .wrapper {
-    width: 100%;
-    height: fit-content;
-    margin-top: 20px;
+  width: 100%;
+  height: fit-content;
+  margin-top: 20px;
 }
 .title {
-    justify-content:center ;
-    align-items:center ;
-    width: 100%;
-    height:fit-content;
-    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  display: flex;
 }
 
 .subtitle {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-top: 50px;
 }
 
 .thirdtitle {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-top: 16px;
 }
 
 .titletext {
-    font-size: 28px;
-    font-family: sans-serif;
+  font-size: 28px;
+  font-family: sans-serif;
 }
 
 .subtitletext {
-    font-size: 20px;
-    font-family: sans-serif;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 .thirdtitletext {
-    font-size: 12px;
-    font-family: sans-serif;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.Logoimage {
+  width: 300px;
+  height: fit-content;
+}
+
+.picImage {
+  width: 100%;
+  height: fit-content;
+}
+
+.picImageWrapper {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-top: 50px;
+}
+
+.buttonWrapper {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.buttonStyles {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #29334d;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
 }
