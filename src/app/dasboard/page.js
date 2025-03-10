@@ -11,7 +11,7 @@ export default function page() {
       <div className={styles.title}>
         <Image
           className={styles.Logoimage}
-          src="/seedfusion.png"
+          src="/logo_seed.jpeg"
           width={180}
           height={38}
           alt="SeedFusion"
